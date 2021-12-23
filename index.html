@@ -10,7 +10,7 @@
       sizes="32x32"
     />
     <link rel="stylesheet" href="stylesheet.css" />
-    <title>Kramer - Mind Blown</title>
+    <title>Kramer - Mind Blown - Youtube</title>
   </head>
   <body>
     <header>
@@ -32,7 +32,7 @@
     </header>
     <main>
       <div id="primaryColumn">
-        <div id="videoContainer">
+        <section id="videoContainer">
           <iframe
             width="560"
             height="315"
@@ -50,22 +50,63 @@
                 <h4>23 ago 2011</h4>
               </div>
             </div>
-            <div id="shareContainer">
-              <button id="likeBtn"> <img id="icon" /> 620</button>
-              <button id="dislikeBtn"> <img id="icon" />No me gusta</button>
-              <button id="shareBtn"> <img id="icon" />Compartir</button>
-              <button id="saveBtn"> <img id="icon" />Guardar</button>
-              <button id="moreBtn"> <img id="icon" /></button>
+            <div id="optionsContainer">
+              <button id="likeBtn"><img id="icon" /> 620</button>
+              <button id="dislikeBtn"><img id="icon" />No me gusta</button>
+              <button id="shareBtn"><img id="icon" />Compartir</button>
+              <button id="saveBtn"><img id="icon" />Guardar</button>
+              <button id="moreBtn"><img id="icon" /></button>
             </div>
           </div>
+        </section>
+        <section id="description">
+          <div id="descriptionTop">
+            <a
+              href="https://www.youtube.com/channel/UCKRcWY6S6PC4MSLPLhPEDiQ"
+              id="profileImg"
+            ></a>
+            <div id="channelContainer">
+              <a
+                id="profileName"
+                href="https://www.youtube.com/channel/UCKRcWY6S6PC4MSLPLhPEDiQ"
+                >sdfg09twsdfj</a
+              >
+              <h4>432 suscriptores</h4>
+            </div>
+            <button id="suscribeBtn">Suscribirme</button>
+          </div>
+          <div id="descriptionBottom">
+            Am I, or am I so sane that you just blew your mind? Is it, or is it
+            so possible that your head is spinning like a top? Can it, or is
+            your entire world crashing down?
+          </div>
+        </section>
+        <hr />
+        <section id="comments"></section>
+      </div>
+      <aside id="secundaryColumn">
+        <div id="recommendationBtns">
+          <button class="recommendadedBtn">Todos</button>
+          <button class="recommendadedBtn">Seinfeld</button>
+          <button class="recommendadedBtn">Relacionados</button>
+          <button class="recommendadedBtn">Subidas</button>
+          <button class="recommedadedBtn"> > </button>
         </div>
-      </div>
-      <hr />
-      <div>
-        <div id="descriptionContainer"></div>
-        <div id="commentsContainer"></div>
-      </div>
-      <aside></aside>
+        <section id="recommendatedVideos">
+          <div class="recommendatedVideo">
+            <div class="thumbnailImg">
+              <img src="https://i.ytimg.com/vi/ST_gvwzBnwA/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLB80ly8cAHVa8BMYw4PznHWvASOGw" alt="thumbnail" />
+              <span class="videoDuration"></span>
+            </div>
+            <div class="recommendatedVideoInfo">
+              <h3 class="recommendatedVideoTitle">Best of Kramer</h3>
+              <h4 class="recommendatedVideoData">Prognosis Negative</h4>
+              <h4 class="recommendatedVideoData">1,4 M de visualizaciones • </h4>
+              <h4 class="recommendatedVideoData">Hace 8 años</h4>
+            </div>
+          </div>
+        </section>
+      </aside>
     </main>
   </body>
 </html>
