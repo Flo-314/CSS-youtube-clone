@@ -9,25 +9,25 @@
       href="https://www.youtube.com/s/desktop/18069be1/img/favicon_32x32.png"
       sizes="32x32"
     />
+    <link rel="stylesheet" href="stylesheet.css" />
     <title>Kramer - Mind Blown</title>
   </head>
   <body>
     <header>
       <div id="logoContainer">
-          <button id="menuBtn"></button>
-          <button id="homeBtn"></button>
+        <button id="menuBtn"></button>
+        <button id="homeBtn"></button>
       </div>
       <div id="searchContainer">
-          <input type="text">
-          <button id="searchBtn"></button>
-          <button id="voiceBtn"></button>
+        <input type="text" />
+        <button id="searchBtn"></button>
+        <button id="voiceBtn"></button>
       </div>
       <nav>
-          <button id="cameraBtn"></button>
-          <button id="gridBtn"></button>
-          <button id="bellBtn"></button>
-          <button id="profileBtn"></button>
-
+        <button id="cameraBtn"></button>
+        <button id="gridBtn"></button>
+        <button id="bellBtn"></button>
+        <button id="profileBtn"></button>
       </nav>
     </header>
     <main>
@@ -43,14 +43,25 @@
             allowfullscreen
           ></iframe>
           <div id="videoInfoContainer">
-            <h1>Kramer - Mind Blown</h1>
-            <div>
-              <div id="viewsContainer">119.660 visualizaciones23 ago 2011</div>
-              <div id="shareContainer">620 megusta compartir guardad ...</div>
+            <div id="dataContainer">
+              <h1>Kramer - Mind Blown</h1>
+              <div id="viewsContainer">
+                <h3>119.660 visualizaciones</h3>
+                <h4>23 ago 2011</h4>
+              </div>
+            </div>
+            <div id="shareContainer">
+              <button id="likeBtn"> <img id="icon" /> 620</button>
+              <button id="dislikeBtn"> <img id="icon" />No me gusta</button>
+              <button id="shareBtn"> <img id="icon" />Compartir</button>
+              <button id="saveBtn"> <img id="icon" />Guardar</button>
+              <button id="moreBtn"> <img id="icon" /></button>
             </div>
           </div>
         </div>
-        <hr />
+      </div>
+      <hr />
+      <div>
         <div id="descriptionContainer"></div>
         <div id="commentsContainer"></div>
       </div>
