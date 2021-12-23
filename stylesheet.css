@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap');
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: 3px;
   padding: 0;
   font-family:"Roboto","Arial",sans-serif;
 }
 button {
-  width: 5em;
-  height: 5em;
-  background-color: #ff0000;
+  width: 4em;
+  height: 4em;
+  background: white;
 }
 
 header {
@@ -52,13 +52,11 @@ main {
 #videoContainer {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
 }
 
 #videoInfoContainer {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 #viewsContainer{
@@ -67,6 +65,16 @@ main {
   align-items: center;
 }
 
+/*comments container */
+#comments{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.comment{
+  display: flex;
+}
 
 
 /* secundary column*/
@@ -95,3 +103,4 @@ main {
   font-weight: 0;
 
 }
+
