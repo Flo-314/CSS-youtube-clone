@@ -6,7 +6,8 @@
   background-repeat: no-repeat;
   margin: 0px;
 }
-.profilePhoto, .profileImg{
+.profilePhoto,
+.profileImg {
   border-radius: 100%;
 }
 
@@ -58,33 +59,28 @@ header {
   padding-left: 2%;
   border: 1px solid #ccc;
 }
- #searchBtn {
+#searchBtn {
   height: inherit;
   width: 5.2em;
   background-color: #fafafa;
   border: 1px solid #ccc;
   border-left: none;
-  
 }
-#searchBtn img{
+#searchBtn img {
   width: 2.1em;
   height: 2.1em;
-
 }
-
 
 #voiceBtn {
   height: 3em;
   width: 3em;
-  border-radius:0vmax;
+  border-radius: 0vmax;
   background-color: #fafafa;
   margin-left: 10px;
-
 }
-#voiceBtn img{
+#voiceBtn img {
   width: 1.4em;
   height: 1.4em;
-  
 }
 
 #logoContainer {
@@ -104,21 +100,21 @@ nav {
   justify-content: center;
   align-items: center;
 }
-nav button{
-width: 40px;
-height: 40px;
-margin-left: 8.5px;
-margin-right: 8.5px;
+nav button {
+  width: 40px;
+  height: 40px;
+  margin-left: 8.5px;
+  margin-right: 8.5px;
 }
-nav img{
+nav img {
   width: 24px;
   height: 24px;
 }
-#profileBtn{
+#profileBtn {
   width: 40px;
   height: 60px;
 }
-#profileBtn img{
+#profileBtn img {
   height: 32px;
   width: 32px;
 }
@@ -143,18 +139,45 @@ main {
   justify-content: center;
   flex-direction: column;
 }
+#dataContainer h1 {
+  font-weight: 500;
+  font-size: 1.25em;
+  color: #030303;
+}
+
+
 
 #videoInfoContainer {
   display: flex;
+  width: 100%;
   align-items: center;
 }
+
 #viewsContainer {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
+  font-size: 0.8em;
+  color: #606060;
+  font-weight: 400;
+}
+#viewsContainer h4{
+margin-left: 8px;
+}
+
+#optionsContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#optionsContainer button{
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 /*comments container */
+
 #comments {
   display: flex;
   justify-content: center;
