@@ -215,6 +215,10 @@ background-color: #fafafa ;
   width: 2em;
 }
 /*description container */
+#description{
+width: 100%;
+}
+
 
 #descriptionTop{
   display: flex;
@@ -242,7 +246,33 @@ font-weight: 500;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-left: 1em;
 }
+#channelContainer a {
+text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+#channelContainer h4{
+  font-size: 12px  ;
+  color: #606060;
+
+}
+
+#descriptionBottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#descriptionText{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 34.5em;
+  font-size: 15px;
+  margin-bottom: 1em;
+}
+
 
 /*comments container */
 
@@ -252,8 +282,81 @@ font-weight: 500;
   flex-direction: column;
   width: 100%;
 }
+#commentsTop{
+display: flex;
+align-items: center;
+margin-top: 1em;
+margin-bottom: 1em;
+
+}
+#commentsTop button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  width: 10em;
+  height: 1.8em;
+  font-weight: 600;
+  color: #030303;
+}
+
+
 .comment {
   display: flex;
+  margin-bottom: 1em;
+}
+.comment .imageSection{
+  margin-right: 1em ;
+}
+.commentTop{
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+.commentTop h5{
+  margin-left: 0.5em;
+}
+.commentBtns{
+  display: flex;
+  align-items: center;
+}
+.commentBtns * {
+  background-color: #fafafa;
+}
+.commentBtns .commentLike, .commentBtns .commentDislike{
+  width: 24px;
+  height: 24px;
+  background-color: #fafafa;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  margin-right: 1em;
+
+
+}
+.commentReply{
+  color: #606060;
+  font-size: 16px;
+  font-weight: 500;
+  width: 6em;
+  height: 2em;
+margin-right: 0.8em;
+}
+
+#newnewComment{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#newComment input{
+  margin-top: 0.3em;
+  width: 100%;
+  height: 50%;
+  margin-left: 1em;
+  border: none;
+  background-color: #fafafa;
+  border-bottom:  1px solid  #909090  ;
 }
 
 /* secundary column*/
