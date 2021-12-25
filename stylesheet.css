@@ -362,7 +362,6 @@ margin-right: 0.8em;
 /* secundary column*/
 #secundaryColumn {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   margin-left: 24px;
