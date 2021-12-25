@@ -16,35 +16,37 @@
     <header>
       <div id="logoContainer">
         <button id="menuBtn">
-          <img src="images/menu.png" alt="menuIcon">
+          <img src="images/menu.png" alt="menuIcon" />
         </button>
         <button id="homeBtn">
-        <img src="images/yt-logo.svg" alt="logo">  
+          <img src="images/yt-logo.svg" alt="logo" />
         </button>
       </div>
       <div id="searchContainer">
-        <input type="text" placeholder="Buscar"/>
+        <input type="text" placeholder="Buscar" />
         <button id="searchBtn">
-          <img src="images/lupa.svg" alt="lupa">  
-
+          <img src="images/lupa.svg" alt="lupa" />
         </button>
         <button id="voiceBtn">
-          <img src="images/microphone-black-shape.png" alt="microphone">  
+          <img src="images/microphone-black-shape.png" alt="microphone" />
         </button>
       </div>
       <nav>
         <button id="cameraBtn">
-          <img src="images/camara-de-cine.png" alt="camara">
+          <img src="images/camara-de-cine.png" alt="camara" />
         </button>
         <button id="gridBtn">
-          <img src="images/grid.png" alt="grid">
-
+          <img src="images/grid.png" alt="grid" />
         </button>
         <button id="bellBtn">
-          <img src="images/notification-outline.png" alt="bell">
+          <img src="images/notification-outline.png" alt="bell" />
         </button>
         <button id="profileBtn">
-          <img class="profileImg" src="https://yt3.ggpht.com/yti/APfAmoHd04a9q5UF9DO03L0eBZB5gYDbwBzfy9f3PA=s48-c-k-c0x00ffffff-no-rj" alt=" profile photo">
+          <img
+            class="profileImg"
+            src="https://yt3.ggpht.com/yti/APfAmoHd04a9q5UF9DO03L0eBZB5gYDbwBzfy9f3PA=s48-c-k-c0x00ffffff-no-rj"
+            alt=" profile photo"
+          />
         </button>
       </nav>
     </header>
@@ -65,24 +67,38 @@
               <h1>Kramer - Mind Blown</h1>
               <div id="viewsContainer">
                 <h3>119.660 visualizaciones</h3>
-                <h4>23 ago 2011</h4>
+                <h3 id="viewsDate">23 ago 2011</h3>
               </div>
             </div>
             <div id="optionsContainer">
-              <button id="likeBtn"><img id="icon" src="./images/like.svg" /> 620</button>
-              <button id="dislikeBtn"><img id="icon" src="./images/dislike.svg" />No me gusta</button>
-              <button id="shareBtn"><img id="icon" src="./images/share.svg" />Compartir</button>
-              <button id="saveBtn"><img id="icon" />Guardar</button>
-              <button id="moreBtn"><img id="icon" /></button>
+              <button id="likeBtn">
+                <img id="icon" src="./images/like.svg" /> 620
+              </button>
+              <button id="dislikeBtn">
+                <img id="icon" src="./images/dislike.svg" />No me gusta
+              </button>
+              <button id="shareBtn">
+                <img id="icon" src="./images/share.svg" />Compartir
+              </button>
+              <button id="saveBtn">
+                <img id="icon" src="./images/menu.png" />Guardar
+              </button>
+              <button id="moreBtn">
+                <img id="icon" src="images/dots.png" />
+              </button>
             </div>
           </div>
+          <hr />
         </section>
         <section id="description">
           <div id="descriptionTop">
-            <a
-              href="https://www.youtube.com/channel/UCKRcWY6S6PC4MSLPLhPEDiQ"
-              id="profileImg"
-            ></a>
+        <div id="descriptionLeft">
+          <img
+          src=" https://yt3.ggpht.com/yti/APfAmoHd04a9q5UF9DO03L0eBZB5gYDbwBzfy9f3PA=s48-c-k-c0x00ffffff-no-rj"
+          alt="profilePhoto"
+          class="profileImg"
+        />
+
             <div id="channelContainer">
               <a
                 id="profileName"
@@ -91,6 +107,8 @@
               >
               <h4>432 suscriptores</h4>
             </div>
+
+            </div>
             <button id="suscribeBtn">Suscribirme</button>
           </div>
           <div id="descriptionBottom">
@@ -98,8 +116,8 @@
             so possible that your head is spinning like a top? Can it, or is
             your entire world crashing down?
           </div>
+          <hr />
         </section>
-        <hr />
         <section id="comments">
           <div id="commentsTop">
             <span id="numOfComments">32 Comentarios</span>
@@ -140,8 +158,12 @@
                     end makes this even funnier
                   </span>
                   <div class="commentBtns">
-                    <button class="commentLike"><img src="./images/like.svg" alt=""></button>
-                    <button class="commentDislike"> <img src="./images/dislike.svg" alt=""></button>
+                    <button class="commentLike">
+                      <img src="./images/like.svg" alt="" />
+                    </button>
+                    <button class="commentDislike">
+                      <img src="./images/dislike.svg" alt="" />
+                    </button>
                     <button class="commentReply">responder</button>
                   </div>
                 </div>
