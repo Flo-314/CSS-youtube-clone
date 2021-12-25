@@ -11,9 +11,9 @@
   border-radius: 100%;
 }
 
-hr{
+hr {
   width: 100%;
-  height: 1px
+  height: 1px;
 }
 button {
   width: 20px;
@@ -131,9 +131,9 @@ main {
   display: flex;
   justify-content: center;
 }
-iframe{
-margin-bottom: 10px;
-margin-top: 10px;  
+iframe {
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 #primaryColumn {
@@ -154,8 +154,6 @@ margin-top: 10px;
   color: #030303;
 }
 
-
-
 #videoInfoContainer {
   display: flex;
   width: 100%;
@@ -172,11 +170,11 @@ margin-top: 10px;
   color: #606060;
   font-weight: 400;
 }
-#viewsContainer #viewsDate{
-margin-left: 8px;
+#viewsContainer #viewsDate {
+  margin-left: 8px;
 }
 
-#optionsContainer{
+#optionsContainer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -184,87 +182,84 @@ margin-left: 8px;
   width: 30em;
   margin-top: 2em;
 }
-#optionsContainer button{
-
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 16px;
-font-weight: 500;
-height: inherit;
-background-color: #fafafa ;
+#optionsContainer button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  height: inherit;
+  background-color: #fafafa;
 }
-#optionsContainer img{
+#optionsContainer img {
   width: 24px;
   height: 24px;
 }
-#likeBtn{
+#likeBtn {
   width: 5em;
 }
-#dislikeBtn{
+#dislikeBtn {
   width: 10em;
 }
-#shareBtn{
+#shareBtn {
   width: 8em;
 }
-#saveBtn{
+#saveBtn {
   width: 7em;
 }
-#moreBtn{
+#moreBtn {
   height: inherit;
   width: 2em;
 }
 /*description container */
-#description{
-width: 100%;
+#description {
+  width: 100%;
 }
 
-
-#descriptionTop{
+#descriptionTop {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 16px;
   margin-bottom: 12px;
 }
-#descriptionLeft{
+#descriptionLeft {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#suscribeBtn{
-width: 9em;
-height: 2.4em;
-background-color:  #CC0000;
-color: white;
-font-size: 16px;
-font-weight: 500;
+#suscribeBtn {
+  width: 9em;
+  height: 2.4em;
+  background-color: #cc0000;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
 }
 
-#channelContainer{
+#channelContainer {
   display: flex;
   justify-content: center;
   flex-direction: column;
   margin-left: 1em;
 }
 #channelContainer a {
-text-decoration: none;
+  text-decoration: none;
   color: black;
   font-weight: 500;
 }
-#channelContainer h4{
-  font-size: 12px  ;
+#channelContainer h4 {
+  font-size: 12px;
   color: #606060;
-
 }
 
-#descriptionBottom{
+#descriptionBottom {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#descriptionText{
+#descriptionText {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -272,7 +267,6 @@ text-decoration: none;
   font-size: 15px;
   margin-bottom: 1em;
 }
-
 
 /*comments container */
 
@@ -282,14 +276,13 @@ text-decoration: none;
   flex-direction: column;
   width: 100%;
 }
-#commentsTop{
-display: flex;
-align-items: center;
-margin-top: 1em;
-margin-bottom: 1em;
-
+#commentsTop {
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
-#commentsTop button{
+#commentsTop button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -300,85 +293,112 @@ margin-bottom: 1em;
   color: #030303;
 }
 
-
 .comment {
   display: flex;
   margin-bottom: 1em;
 }
-.comment .imageSection{
-  margin-right: 1em ;
+.comment .imageSection {
+  margin-right: 1em;
 }
-.commentTop{
+.commentTop {
   display: flex;
   align-items: center;
   margin-bottom: 0.5em;
 }
-.commentTop h5{
+.commentTop h5 {
   margin-left: 0.5em;
 }
-.commentBtns{
+.commentBtns {
   display: flex;
   align-items: center;
 }
 .commentBtns * {
   background-color: #fafafa;
 }
-.commentBtns .commentLike, .commentBtns .commentDislike{
+.commentBtns .commentLike,
+.commentBtns .commentDislike {
   width: 24px;
   height: 24px;
-  background-color: #fafafa;  
+  background-color: #fafafa;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 16px;
   margin-right: 1em;
-
-
 }
-.commentReply{
+.commentReply {
   color: #606060;
   font-size: 16px;
   font-weight: 500;
   width: 6em;
   height: 2em;
-margin-right: 0.8em;
+  margin-right: 0.8em;
 }
 
-#newnewComment{
+#newnewComment {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#newComment input{
+#newComment input {
   margin-top: 0.3em;
   width: 100%;
   height: 50%;
   margin-left: 1em;
   border: none;
   background-color: #fafafa;
-  border-bottom:  1px solid  #909090  ;
+  border-bottom: 1px solid #909090;
 }
 
 /* secundary column*/
 #secundaryColumn {
   display: flex;
-  align-items: center;
   flex-direction: column;
   margin-left: 24px;
   margin-top: 10px;
 }
 
 /* recommendated videos */
-
-.recommendatedVideo {
+#recommendationBtns {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+#recommendationBtns * {
+  width: auto;
+  padding: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 2.5em;
+  border-radius: 2em;
+  margin-right: 10px;
+  background-color: #e4e4e4;
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+  border: 1px solid #ccc;
+}
+.recommendatedVideo {
+  display: flex;
+  margin-bottom: 0.3em;
+}
+.recommendatedVideoInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5em;
+}
+.recommendatedVideoInfo * {
+  margin-bottom: 0.3em;
+}
+.recommendatedVideoInfo h4{
+  font-weight: 400;
 }
 .recommendatedVideoTitle {
   font-size: 14px;
   color: #030303;
   font-weight: 500;
+  margin-bottom: 0.5em;
 }
 .recommendatedVideoData {
   font-size: 12px;
